@@ -9,6 +9,12 @@
   "compatibility_date": "2025-02-04",
   "observability": {
     "enabled": true
+  },
+  "vars": {
+    "SLACK_CHANNEL_ID": "C08B8HG7P3R"
+   },
+  "triggers": {
+    "crons": ["0 */12 * * *"]
   }
   /**
    * Smart Placement
